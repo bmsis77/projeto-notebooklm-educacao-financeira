@@ -4,7 +4,13 @@
 
 Este documento registra os principais prompts utilizados durante o desenvolvimento do projeto de estudo sobre **Educação Financeira para Iniciantes** no NotebookLM.
 
-Os prompts foram utilizados em diferentes etapas do processo: exploração inicial do tema, organização dos conteúdos, verificação crítica das respostas, aprendizagem ativa por meio de quiz e validação do conhecimento construído.
+Os prompts foram utilizados em diferentes etapas do processo:
+
+* exploração inicial do tema;
+* organização dos conteúdos;
+* verificação crítica das respostas;
+* aprendizagem ativa por meio de quiz;
+* validação do conhecimento construído.
 
 O objetivo não foi apenas obter respostas da IA, mas utilizar o NotebookLM como uma ferramenta de apoio ao estudo, sempre relacionando as respostas às fontes selecionadas.
 
@@ -12,15 +18,15 @@ O objetivo não foi apenas obter respostas da IA, mas utilizar o NotebookLM como
 
 # 2. Prompt 1 — Exploração inicial
 
-### Objetivo
+## Objetivo
 
 Obter uma primeira visão geral sobre o conceito de educação financeira e identificar os principais assuntos que poderiam fazer parte do estudo.
 
-### Prompt
+## Prompt
 
 > Explique o que é educação financeira para uma pessoa que está começando a estudar o assunto. Utilize as fontes deste caderno para construir a resposta e cite as fontes utilizadas.
 
-### Resultado observado
+## Resultado obtido
 
 O NotebookLM apresentou uma explicação ampla sobre educação financeira e abordou temas como:
 
@@ -35,9 +41,20 @@ O NotebookLM apresentou uma explicação ampla sobre educação financeira e abo
 
 A resposta foi útil para obter uma visão inicial do tema, mas apresentou muitos assuntos de uma só vez.
 
-### Aprendizado
+## Referências utilizadas
 
-Um prompt mais aberto permite que a ferramenta escolha a estrutura da resposta. Para estudar de maneira mais organizada, seria melhor definir previamente os conceitos que deveriam ser abordados e o formato esperado.
+A resposta foi construída a partir das fontes adicionadas ao caderno do NotebookLM, incluindo materiais do:
+
+* Banco Central do Brasil;
+* Comissão de Valores Mobiliários;
+* CVM / Planejar;
+* SUSEP.
+
+## Aprendizado
+
+Um prompt mais aberto permite que a ferramenta escolha a estrutura da resposta.
+
+Para estudar de maneira mais organizada, seria melhor definir previamente os conceitos que deveriam ser abordados e o formato esperado.
 
 Essa observação levou à criação do segundo prompt.
 
@@ -45,11 +62,11 @@ Essa observação levou à criação do segundo prompt.
 
 # 3. Prompt 2 — Estruturação do conteúdo
 
-### Objetivo
+## Objetivo
 
 Criar uma explicação mais organizada, estabelecendo uma sequência lógica de aprendizagem para alguém que está começando a estudar educação financeira.
 
-### Prompt
+## Prompt
 
 > Estou estudando educação financeira pela primeira vez e quero construir uma base sólida antes de aprender sobre investimentos.
 >
@@ -74,7 +91,7 @@ Criar uma explicação mais organizada, estabelecendo uma sequência lógica de 
 >
 > Não aprofunde investimentos neste momento. Ao final, apresente 5 conceitos que eu deveria dominar antes de começar a estudar investimentos.
 
-### Resultado observado
+## Resultado obtido
 
 A resposta ficou mais organizada e adequada para iniciantes.
 
@@ -87,7 +104,21 @@ Cada conceito passou a apresentar:
 
 Também foi possível identificar conhecimentos que deveriam ser consolidados antes do estudo de investimentos.
 
-### Aprendizado
+Entre os conceitos destacados pelo NotebookLM estavam:
+
+* pagar-se primeiro;
+* reserva de emergência;
+* Tripé dos Investimentos;
+* juros compostos e efeito do tempo;
+* inflação e rentabilidade real.
+
+## Referências utilizadas
+
+A resposta foi solicitada utilizando exclusivamente as fontes adicionadas ao caderno do NotebookLM.
+
+As referências utilizadas estavam relacionadas principalmente aos materiais do Banco Central do Brasil, CVM e SUSEP.
+
+## Aprendizado
 
 Quanto mais claro o contexto, a estrutura e as restrições fornecidas no prompt, mais direcionada tende a ser a resposta.
 
@@ -97,11 +128,11 @@ A principal evolução em relação ao primeiro prompt foi deixar de apenas perg
 
 # 4. Prompt 3 — Auditoria e verificação crítica
 
-### Objetivo
+## Objetivo
 
 Verificar se as respostas produzidas pelo NotebookLM estavam realmente sustentadas pelas fontes ou se algumas afirmações haviam sido simplificadas ou interpretadas além do conteúdo original.
 
-### Prompt
+## Prompt
 
 > Analise criticamente a resposta anterior.
 >
@@ -124,24 +155,52 @@ Verificar se as respostas produzidas pelo NotebookLM estavam realmente sustentad
 >
 > Utilize exclusivamente as fontes deste caderno e não utilize conhecimento externo.
 
-### Resultado observado
+## Resultado obtido
 
 A análise mostrou que algumas afirmações precisavam de contexto.
 
 Entre os principais pontos identificados:
 
-* **Reserva de emergência:** diferentes fontes apresentam diferentes períodos de referência, dependendo da situação da pessoa. Portanto, não deve ser tratada como uma regra universal de “3 a 12 meses”.
-* **Endividamento:** o percentual de comprometimento da renda depende da definição utilizada pela fonte e deve considerar a **renda mensal líquida**.
-* **Reserva de emergência:** características como baixo risco e liquidez são importantes, mas os produtos utilizados como exemplo possuem características e riscos próprios.
-* **Investimentos:** a expressão correta encontrada nas fontes é **“Tripé dos Investimentos”**, e não “Triângulo dos Investimentos”.
-* **Juros compostos:** os efeitos dependem das taxas, do período e das condições consideradas na simulação.
-* **Inflação:** uma rentabilidade nominal não representa necessariamente ganho real de poder de compra.
+### Reserva de emergência
 
-### Cicatriz identificada
+Diferentes fontes apresentam diferentes períodos de referência, dependendo da situação da pessoa.
+
+Portanto, não deve ser tratada como uma regra universal de **“3 a 12 meses”**.
+
+### Endividamento
+
+O percentual de comprometimento da renda depende da definição utilizada pela fonte e deve considerar a **renda mensal líquida**.
+
+### Reserva de emergência e investimentos
+
+Características como baixo risco e liquidez são importantes para uma reserva de emergência, mas os produtos utilizados como exemplo possuem características e riscos próprios.
+
+### Terminologia
+
+A expressão correta encontrada nas fontes é **“Tripé dos Investimentos”**, e não “Triângulo dos Investimentos”.
+
+### Juros compostos
+
+Os efeitos dependem das taxas, do período e das condições consideradas na simulação.
+
+### Inflação
+
+Uma rentabilidade nominal não representa necessariamente ganho real de poder de compra.
+
+## Referências utilizadas
+
+A auditoria foi solicitada para confrontar as afirmações diretamente com as fontes disponíveis no caderno, especialmente:
+
+* Banco Central do Brasil — Caderno de Educação Financeira;
+* CVM — Guia de Planejamento Financeiro;
+* CVM / Planejar — Livro TOP: Planejamento Financeiro Pessoal;
+* SUSEP — Orçamento.
+
+## Cicatriz identificada
 
 > **A IA pode transformar recomendações, exemplos ou informações contextuais das fontes em regras gerais se a resposta não for auditada.**
 
-### Aprendizado
+## Aprendizado
 
 A etapa de auditoria mostrou que utilizar IA para estudar não significa aceitar automaticamente tudo o que ela apresenta.
 
@@ -159,11 +218,11 @@ Essa foi uma das principais aprendizagens do projeto.
 
 # 5. Prompt 4 — Aprendizagem ativa com quiz
 
-### Objetivo
+## Objetivo
 
 Verificar se os conceitos estudados realmente haviam sido compreendidos, em vez de apenas lidos.
 
-### Prompt
+## Prompt
 
 > Quero testar meu conhecimento sobre educação financeira.
 >
@@ -189,7 +248,7 @@ Verificar se os conceitos estudados realmente haviam sido compreendidos, em vez 
 >
 > Depois que eu responder às 10 questões, faça a correção, explique meus erros e indique quais conceitos devo revisar.
 
-### Resultado observado
+## Resultado obtido
 
 Foi gerado um quiz com 10 questões de múltipla escolha.
 
@@ -197,11 +256,15 @@ As questões envolveram conceitos e situações práticas relacionadas ao conte�
 
 O resultado obtido foi:
 
-**10/10 — 100% de acerto.**
+> **10/10 — 100% de acerto.**
 
 Todas as questões foram respondidas com segurança antes da correção.
 
-### Aprendizado
+## Referências utilizadas
+
+As questões foram elaboradas utilizando exclusivamente o conteúdo das fontes adicionadas ao NotebookLM, com indicação da fonte relacionada a cada questão.
+
+## Aprendizado
 
 O quiz funcionou como uma etapa de **aprendizagem ativa**, pois exigiu recuperar os conhecimentos estudados e aplicá-los em situações práticas.
 
@@ -211,11 +274,11 @@ Isso ajudou a verificar se o conteúdo havia sido compreendido e não apenas con
 
 # 6. Prompt 5 — Validação da minha própria definição
 
-### Objetivo
+## Objetivo
 
 Comparar uma definição criada durante o estudo com as informações presentes nas fontes, verificando quais partes estavam alinhadas e quais poderiam ser aprimoradas.
 
-### Prompt
+## Prompt
 
 > Analise a definição abaixo sobre educação financeira:
 >
@@ -230,7 +293,7 @@ Comparar uma definição criada durante o estudo com as informações presentes 
 >
 > Não descarte a definição original; quero compará-la com a definição baseada nas fontes.
 
-### Resultado observado
+## Resultado obtido
 
 A análise mostrou que a definição criada estava alinhada com as fontes ao relacionar educação financeira com decisões conscientes sobre dinheiro, consumo, poupança e investimentos.
 
@@ -242,7 +305,11 @@ A expressão **“ganhar dinheiro”** também não representa diretamente um do
 
 Já a expressão **“dominar o seu dinheiro”** foi identificada como uma metáfora útil para comunicação com iniciantes, mas não como uma definição técnica utilizada pelas fontes.
 
-### Aprendizado
+## Referências utilizadas
+
+A definição foi comparada exclusivamente com as fontes adicionadas ao caderno do NotebookLM, especialmente os materiais institucionais utilizados para fundamentar o estudo.
+
+## Aprendizado
 
 A comparação entre uma explicação própria e as fontes foi importante para perceber que compreender um assunto não significa necessariamente conseguir defini-lo de maneira tecnicamente completa.
 
@@ -264,11 +331,13 @@ O processo apresentou uma evolução gradual:
 
 A evolução pode ser resumida como:
 
-**Perguntar → Estruturar → Questionar → Testar → Validar**
+> **Perguntar → Estruturar → Questionar → Testar → Validar**
 
 ---
 
 # 8. Principais “cicatrizes” do processo
+
+As “cicatrizes” registram problemas, simplificações ou aprendizados encontrados durante a utilização do NotebookLM.
 
 ## Cicatriz 1 — Prompt muito aberto
 
@@ -308,48 +377,62 @@ Mesmo com respostas bem estruturadas, ainda era necessário verificar se o conte
 
 ---
 
+## Cicatriz 5 — CET
+
+Ao analisar uma situação de parcelamento, foi percebido que dizer que todo valor adicional ao preço à vista corresponde necessariamente a **“juros”** pode ser uma simplificação.
+
+O custo total de uma operação pode envolver outros encargos.
+
+**Aprendizado:** é necessário diferenciar custo adicional, juros e **Custo Efetivo Total (CET)**.
+
+---
+
 # 9. Modelo de prompt reutilizável
 
-A partir da experiência com o NotebookLM, foi possível identificar uma estrutura de prompt que pode ser reutilizada em outros estudos:
+A partir da experiência com o NotebookLM, foi possível identificar uma estrutura de prompt que pode ser reutilizada em outros estudos.
 
-```text
-CONTEXTO
+## Estrutura
+
+### CONTEXTO
+
 Explique qual é o tema e para quem o conteúdo será apresentado.
 
-FONTES
+### FONTES
+
 Utilize exclusivamente as fontes disponíveis no caderno.
 
-TAREFA
+### TAREFA
+
 Defina exatamente o que precisa ser analisado ou explicado.
 
-RESTRIÇÕES
+### RESTRIÇÕES
+
 Informe o que deve ou não ser abordado.
 
-FORMATO
+### FORMATO
+
 Defina como a resposta deve ser organizada.
 
-VERIFICAÇÃO
+### VERIFICAÇÃO
+
 Peça referências, ressalvas ou comparação com as fontes quando necessário.
-```
 
-### Exemplo
+## Exemplo
 
-```text
-Estou estudando [TEMA] pela primeira vez.
-
-Utilize exclusivamente as fontes deste caderno.
-
-Explique [ASSUNTO] para um iniciante.
-
-Organize a resposta em:
-1. Definição
-2. Importância
-3. Exemplo
-4. Cuidados ou limitações
-
-Cite as fontes utilizadas e destaque qualquer informação que seja
-uma recomendação, exemplo ou regra específica da fonte.
-```
+> Estou estudando [TEMA] pela primeira vez.
+>
+> Utilize exclusivamente as fontes deste caderno.
+>
+> Explique [ASSUNTO] para um iniciante.
+>
+> Organize a resposta em:
+>
+> 1. Definição
+> 2. Importância
+> 3. Exemplo
+> 4. Cuidados ou limitações
+>
+> Cite as fontes utilizadas e destaque qualquer informação que seja uma recomendação, exemplo ou regra específica da fonte.
 
 ---
 
@@ -368,3 +451,5 @@ O processo evoluiu de uma consulta inicial para uma metodologia de estudo que en
 * produção de um material final de estudo.
 
 Dessa forma, o NotebookLM foi utilizado não apenas para gerar respostas, mas como uma ferramenta de apoio ao processo de aprendizagem.
+
+O principal aprendizado foi perceber que **uma boa utilização de IA envolve saber perguntar, verificar, questionar e aplicar o conhecimento obtido**.
