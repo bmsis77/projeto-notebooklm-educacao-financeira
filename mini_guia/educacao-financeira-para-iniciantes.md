@@ -1,312 +1,414 @@
-# 📚 Projeto NotebookLM — Educação Financeira para Iniciantes
+# 📘 Mini Guia — Educação Financeira para Iniciantes
 
-## Sobre o projeto
+## 1. O que é educação financeira?
 
-Este projeto foi desenvolvido como parte do desafio prático do bootcamp **Bradesco — GenAI, Dados & Cyber**, da DIO.
+Educação financeira é o processo de desenvolver **conhecimentos, atitudes e comportamentos** que ajudam uma pessoa a administrar seus recursos de forma consciente, autônoma e responsável.
 
-O objetivo foi utilizar o **NotebookLM como ferramenta de aprendizagem ativa**, explorando fontes confiáveis, criando perguntas estratégicas, testando diferentes abordagens de prompt, verificando criticamente as respostas geradas e consolidando o conhecimento em um mini guia de estudos.
+Ela não significa simplesmente parar de gastar. O objetivo é aprender a tomar decisões mais conscientes sobre **consumo, poupança, crédito e investimentos**, buscando equilíbrio financeiro e a realização de objetivos pessoais.
 
-O tema escolhido foi:
+### Exemplo
 
-> **Educação financeira para iniciantes**
+Uma pessoa recebe seu salário e, antes de gastar, analisa suas despesas, separa uma quantia para poupança e verifica se determinada compra realmente cabe no orçamento.
 
-A escolha do tema teve como objetivo construir uma base sobre organização financeira pessoal antes de aprofundar conceitos relacionados a investimentos.
+### 💡 Ideia-chave
 
----
-
-## 🎯 Objetivo geral
-
-Compreender os principais conceitos de educação financeira pessoal, desenvolvendo conhecimentos básicos para organizar as finanças, tomar decisões financeiras mais conscientes e interpretar conceitos relacionados a orçamento, poupança, crédito, dívidas e investimentos.
+> **Educação financeira não é deixar de gastar. É aprender a decidir melhor como utilizar o dinheiro.**
 
 ---
 
-## 🎯 Objetivos específicos
+# 2. Necessidades × desejos
 
-Durante o estudo, foram definidos os seguintes objetivos:
+Uma das primeiras decisões financeiras é diferenciar aquilo que é necessário daquilo que representa um desejo.
 
-* Compreender o conceito de educação financeira e sua importância.
-* Diferenciar necessidades e desejos.
-* Identificar receitas e despesas.
-* Compreender o funcionamento de um orçamento pessoal.
-* Entender o conceito de poupança.
-* Compreender a finalidade de uma reserva de emergência.
-* Entender conceitos básicos relacionados a crédito e endividamento.
-* Diferenciar poupança e investimento.
-* Compreender conceitos básicos de risco, liquidez e rentabilidade.
-* Desenvolver uma postura crítica ao utilizar respostas produzidas por inteligência artificial.
+### Necessidade
+
+É algo essencial para a vida ou para o funcionamento básico da pessoa.
+
+**Exemplos:**
+
+* alimentação;
+* moradia;
+* transporte necessário;
+* saúde.
+
+### Desejo
+
+É algo que queremos consumir, mas que não é necessariamente essencial.
+
+**Exemplos:**
+
+* trocar um celular que ainda funciona;
+* pedir delivery por preferência;
+* comprar uma roupa nova sem necessidade imediata.
+
+### ⚠️ Atenção
+
+Uma mesma necessidade pode ser atendida de diferentes maneiras.
+
+Por exemplo:
+
+> Alimentação é uma necessidade.
+> Comer em um restaurante de luxo pode ser uma escolha associada a um desejo.
+
+O objetivo não é eliminar os desejos, mas reconhecer a diferença para tomar decisões mais conscientes.
 
 ---
 
-# 📚 Fontes utilizadas
+# 3. Receitas e despesas
 
-Foram selecionadas quatro fontes institucionais e abertas relacionadas à educação financeira:
+Antes de organizar o dinheiro, precisamos saber **quanto entra e quanto sai**.
 
-1. **Banco Central do Brasil — Caderno de Educação Financeira**
+## Receitas
 
-   * Material voltado aos fundamentos da educação financeira, planejamento, orçamento, consumo e comportamento financeiro.
+São os recursos que entram no orçamento.
 
-2. **CVM — Guia de Planejamento Financeiro**
+**Exemplos:**
 
-   * Material sobre planejamento financeiro pessoal e organização das finanças.
+* salário;
+* aposentadoria;
+* rendimentos;
+* outras fontes de renda.
 
-3. **CVM / Planejar — Livro TOP: Planejamento Financeiro Pessoal**
+## Despesas
 
-   * Conteúdo relacionado a planejamento financeiro, orçamento, reserva, crédito e investimentos.
+São os recursos utilizados para pagar bens, serviços e obrigações.
 
-4. **SUSEP — Orçamento**
+Podem ser classificadas de diferentes formas.
 
-   * Material educacional sobre orçamento e organização financeira.
+### Despesas fixas
+
+Tendem a apresentar valores mais estáveis.
+
+**Exemplo:** aluguel.
+
+### Despesas variáveis
+
+Podem mudar de acordo com o consumo.
+
+**Exemplo:** conta de água.
+
+### 💡 Ideia-chave
+
+> **Não é possível controlar bem aquilo que você não acompanha.**
 
 ---
 
-# 🧠 Metodologia
+# 4. Orçamento pessoal
 
-O processo foi dividido em etapas.
+O orçamento permite acompanhar e planejar a utilização da renda.
 
-### 1. Definição do tema
+Uma forma simples de começar é:
 
-Foi escolhido o tema **Educação Financeira para Iniciantes**, buscando construir uma base antes de aprofundar investimentos.
+**Receitas − Despesas = Resultado**
 
-### 2. Curadoria das fontes
+Esse resultado pode ser:
 
-Foram selecionadas quatro fontes institucionais relacionadas ao tema.
+### Superávit
 
-### 3. Criação do notebook
+Quando:
 
-As fontes foram adicionadas ao NotebookLM para servir como base das respostas.
+**Receitas > Despesas**
 
-### 4. Exploração inicial
+Exemplo:
 
-Foi criado um primeiro prompt amplo para compreender como o NotebookLM organizaria o tema.
+> Renda: R$ 3.000
+> Despesas: R$ 2.300
+> **Superávit: R$ 700**
 
-### 5. Refinamento dos prompts
+### Déficit
 
-Após analisar a primeira resposta, foi criado um prompt mais estruturado, definindo:
+Quando:
 
-* público-alvo;
-* ordem dos assuntos;
-* formato das explicações;
-* necessidade de exemplos;
-* utilização exclusiva das fontes;
-* conceitos que deveriam ser evitados naquele momento.
+**Despesas > Receitas**
 
-### 6. Auditoria das respostas
+Exemplo:
 
-Uma etapa específica foi criada para identificar:
+> Renda: R$ 3.000
+> Despesas: R$ 3.200
+> **Déficit: R$ 200**
 
-* números;
-* percentuais;
-* recomendações;
-* regras práticas;
-* simplificações;
-* interpretações que poderiam ultrapassar o conteúdo das fontes.
+### Como agir diante de um déficit?
 
-### 7. Teste de conhecimento
+O primeiro passo é entender **para onde o dinheiro está indo**.
 
-Foi criado um quiz com 10 questões de múltipla escolha.
+Um processo útil é:
 
-Resultado:
+> **Identificar → classificar → avaliar → ajustar**
 
-> **10/10 — 100%**
+Isso significa analisar os gastos antes de simplesmente cortar qualquer despesa.
 
-Além do resultado, as respostas foram analisadas para identificar o nível de segurança sobre os conceitos estudados.
+Uma categoria como "outras despesas", por exemplo, pode conter tanto gastos supérfluos quanto despesas importantes.
 
-### 8. Aprendizagem ativa
+---
 
-Após o quiz, os conceitos foram retomados com exemplos cotidianos e explicados com palavras próprias.
+# 5. Poupança
 
-Entre os conceitos trabalhados estiveram:
+Poupar significa **separar e preservar uma parte da renda que não foi consumida**.
 
-* poupança;
-* investimento;
-* reserva de emergência;
-* liquidez;
-* orçamento;
-* superávit;
-* déficit;
-* crédito;
+Por exemplo:
+
+> Renda: R$ 3.000
+> Despesas: R$ 2.700
+> Valor poupado: R$ 300
+
+Poupar não significa necessariamente cortar toda forma de lazer ou deixar de consumir.
+
+O objetivo é criar espaço no orçamento para guardar recursos e alcançar objetivos financeiros.
+
+## "Pagar-se primeiro"
+
+Uma estratégia estudada durante o projeto foi o conceito de **"pagar-se primeiro"**.
+
+Em vez de esperar o final do mês para descobrir quanto sobrou, a pessoa define previamente uma quantia para poupar e a separa assim que recebe sua renda.
+
+### Exemplo
+
+Recebeu R$ 3.000.
+
+Em vez de:
+
+> "Vou gastar e guardar o que sobrar."
+
+A lógica passa a ser:
+
+> "Vou separar primeiro o valor planejado e organizar o restante do orçamento."
+
+---
+
+# 6. Poupança × investimento
+
+Os conceitos são relacionados, mas não são iguais.
+
+### Poupar
+
+É separar dinheiro que não será consumido.
+
+### Investir
+
+É aplicar dinheiro buscando obter retorno.
+
+Podemos pensar da seguinte forma:
+
+> **Poupar → acumular recursos.**
+> **Investir → aplicar recursos buscando retorno.**
+
+Por exemplo:
+
+Você consegue separar R$ 500.
+
+* R$ 300 ficam destinados à reserva de emergência.
+* R$ 200 são aplicados em um investimento.
+
+Nesse caso, os R$ 500 foram poupados, enquanto R$ 200 também foram investidos.
+
+### 💡 Ideia-chave
+
+> **Todo investimento pode fazer parte do dinheiro poupado, mas nem todo dinheiro poupado está investido.**
+
+---
+
+# 7. Reserva de emergência
+
+A reserva de emergência é um valor guardado estrategicamente para lidar com **despesas inesperadas ou períodos de dificuldade financeira**.
+
+Ela ajuda a pessoa a enfrentar imprevistos sem precisar recorrer imediatamente a empréstimos ou outras formas de crédito.
+
+## Duas características importantes
+
+A reserva deve priorizar:
+
+**Baixo risco + alta liquidez**
+
+### Baixo risco
+
+O objetivo principal é preservar o dinheiro.
+
+### Alta liquidez
+
+O dinheiro precisa estar disponível quando surgir uma emergência.
+
+### Exemplo
+
+Imagine:
+
+* despesas essenciais: R$ 2.000 por mês;
+* objetivo: possuir recursos para 3 meses sem renda.
+
+A conta seria:
+
+**R$ 2.000 × 3 = R$ 6.000**
+
+Portanto, nesse exemplo, a reserva seria de R$ 6.000.
+
+### ⚠️ Atenção
+
+O número de meses necessário não deve ser tratado como uma regra universal.
+
+As fontes estudadas apresentam referências diferentes e consideram fatores como estabilidade da renda e características profissionais.
+
+---
+
+# 8. Crédito e endividamento
+
+O crédito permite utilizar recursos agora e pagar posteriormente.
+
+Ele pode ser útil, mas precisa ser analisado com cuidado.
+
+Antes de contratar uma operação de crédito, é importante observar:
+
+* valor total da operação;
+* juros;
+* encargos;
 * CET;
-* endividamento.
+* valor das parcelas;
+* impacto no orçamento;
+* capacidade de pagamento.
 
-### 9. Consolidação
+## Não olhe apenas para a parcela
 
-O conhecimento obtido durante o processo foi organizado em um **Mini Guia de Educação Financeira para Iniciantes**.
+Imagine:
 
----
+> Produto: R$ 1.000
+> Parcelamento: 10 × R$ 110
 
-# 🔎 Experimentação de prompts
+O valor total pago será:
 
-## Prompt 1 — Exploração inicial
+**10 × R$ 110 = R$ 1.100**
 
-O primeiro prompt buscou uma explicação geral sobre educação financeira.
+Portanto, existe um custo adicional de R$ 100 em relação ao preço de R$ 1.000.
 
-### Resultado
-
-O NotebookLM apresentou uma visão ampla do tema, abordando orçamento, comportamento, poupança, crédito e dívidas.
-
-### Aprendizado
-
-O resultado foi útil para obter uma visão inicial, mas a resposta ficou ampla e a organização do conteúdo ficou principalmente a cargo da IA.
+Mas não devemos assumir automaticamente que todo esse valor seja exclusivamente juros. Outros encargos podem existir.
 
 ---
 
-## Prompt 2 — Resposta estruturada
+# 9. Custo Efetivo Total — CET
 
-O segundo prompt passou a definir explicitamente a ordem dos assuntos e o formato desejado.
+O **Custo Efetivo Total (CET)** permite visualizar o custo total de uma operação de crédito, considerando juros e outros encargos relacionados à operação.
 
-A resposta deveria apresentar, para cada conceito:
+Por isso, olhar somente para a taxa de juros ou para o valor da parcela pode não ser suficiente.
 
-* definição;
-* importância;
-* exemplo cotidiano;
-* fontes utilizadas.
+### 💡 Exemplo
 
-### Resultado
+Duas operações podem apresentar parcelas parecidas, mas custos totais diferentes.
 
-A resposta ficou mais organizada e adequada para um iniciante.
-
-### Aprendizado
-
-Um prompt com objetivo, contexto, restrições e formato de saída definidos produz uma resposta mais direcionada.
+O CET ajuda a comparar o custo efetivo dessas operações.
 
 ---
 
-# 🩹 Cicatrizes do processo
+# 10. Endividamento
 
-As chamadas "cicatrizes" registram problemas, simplificações ou aprendizados encontrados durante a utilização do NotebookLM.
+Ter uma dívida não significa necessariamente estar inadimplente.
 
-## 🩹 Cicatriz 1 — Resposta ampla demais
+### Endividamento
 
-O primeiro prompt permitiu que a IA decidisse quais conceitos priorizar e como organizar a explicação.
+A pessoa possui compromissos financeiros, como:
 
-### Correção
+* empréstimos;
+* financiamentos;
+* parcelas;
+* outras obrigações de crédito.
 
-Foi criado um prompt mais estruturado, especificando a sequência dos assuntos e o formato das respostas.
+### Inadimplência
 
-### Aprendizado
+Acontece quando uma obrigação não é paga dentro do prazo.
 
-> Quanto mais claro o objetivo e o formato esperado, maior o controle sobre a resposta gerada.
+Portanto:
 
----
+> **Uma pessoa pode estar endividada e continuar pagando suas contas em dia.**
 
-## 🩹 Cicatriz 2 — Reserva de emergência
+Também é importante analisar quanto da renda está comprometido com dívidas.
 
-A resposta inicial apresentou a referência de **3 a 12 meses** de despesas.
+### Exemplo
 
-Durante a auditoria, percebeu-se que esse intervalo era uma consolidação de diferentes referências presentes nas fontes, e não uma regra universal.
+Renda líquida: R$ 4.000
+Compromissos de dívida: R$ 1.600
 
-### Aprendizado
+**R$ 1.600 ÷ R$ 4.000 × 100 = 40%**
 
-Números apresentados por uma IA precisam ser confrontados com a fonte original e com o contexto em que foram apresentados.
+Nesse caso, 40% da renda líquida está comprometida com essas obrigações.
 
----
-
-## 🩹 Cicatriz 3 — Endividamento
-
-A resposta apresentou a ideia de um limite de **30% da renda** de maneira simplificada.
-
-A auditoria mostrou que o material utilizado apresenta um índice de endividamento baseado no comprometimento da renda líquida e apresenta diferentes referências e faixas para análise.
-
-### Aprendizado
-
-> Um percentual apresentado em uma fonte não deve ser automaticamente transformado em uma regra universal.
+Esse percentual é uma informação para análise, não uma regra universal que, sozinha, determine se a situação financeira é boa ou ruim.
 
 ---
 
-## 🩹 Cicatriz 4 — Terminologia
+# 11. Antes de começar a investir
 
-Durante a análise foi identificado o uso da expressão **"Triângulo dos Investimentos"**.
+Antes de aprofundar investimentos, é importante possuir uma base financeira.
 
-A fonte utiliza o termo **"Tripé dos Investimentos"**.
+Uma sequência possível é:
 
-### Aprendizado
+**Organizar → controlar → poupar → formar reserva → compreender crédito → estudar investimentos**
 
-Mesmo quando a ideia geral está correta, a terminologia utilizada precisa ser conferida nas fontes.
+Ao estudar investimentos, alguns conceitos passam a ser importantes:
 
----
+### Risco
 
-## 🩹 Cicatriz 5 — CET
+Possibilidade de o resultado ser diferente do esperado, incluindo possibilidade de perda.
 
-Ao analisar uma situação de parcelamento, foi percebido que dizer que todo valor adicional ao preço à vista corresponde necessariamente a "juros" pode ser uma simplificação.
+### Liquidez
 
-O custo total de uma operação pode envolver outros encargos.
+Facilidade e velocidade para transformar um investimento em dinheiro disponível.
 
-### Aprendizado
+### Rentabilidade
 
-É necessário diferenciar **custo adicional**, **juros** e **CET**.
+Retorno obtido por determinado investimento.
 
----
+### Inflação
 
-# 📝 Quiz
+Aumento generalizado dos preços que reduz o poder de compra do dinheiro ao longo do tempo.
 
-Foi criado um quiz com 10 questões envolvendo:
+### Juros compostos
 
-* educação financeira;
-* necessidades e desejos;
-* receitas e despesas;
-* orçamento;
-* poupança;
-* reserva de emergência;
-* crédito;
-* endividamento.
-
-### Resultado
-
-**10 acertos de 10 questões.**
-
-**Aproveitamento: 100%.**
-
-O quiz foi utilizado como ferramenta de verificação do aprendizado, e não apenas como avaliação automática.
+Os rendimentos podem ser incorporados ao capital e passar a gerar novos rendimentos ao longo do tempo.
 
 ---
 
-# 📘 Resultado final
+# 📖 Glossário
 
-O processo resultou na criação do:
-
-> **Mini Guia de Educação Financeira para Iniciantes**
-
-O guia reúne os principais conceitos estudados, exemplos cotidianos, pontos de atenção e um glossário básico.
-
----
-
-# 💡 Principais aprendizados
-
-Durante o desenvolvimento do projeto, os principais aprendizados foram:
-
-* A qualidade da resposta depende também da qualidade do prompt.
-* Fontes confiáveis são importantes para reduzir respostas sem fundamentação.
-* A IA pode simplificar ou interpretar informações além do que uma fonte realmente afirma.
-* Respostas geradas por IA devem ser verificadas criticamente.
-* Testar o conhecimento com perguntas ajuda a transformar uma consulta à IA em uma atividade de aprendizagem.
-* Explicar um conceito com as próprias palavras ajuda a verificar se ele realmente foi compreendido.
-* O NotebookLM pode funcionar não apenas como ferramenta de consulta, mas como apoio para um processo estruturado de estudo.
-
----
-
-# 📂 Entregáveis
-
-O projeto está organizado nos seguintes materiais:
-
-* `README.md` — documentação do projeto e metodologia.
-* `mini-guia/educacao-financeira-para-iniciantes.md` — material final de estudo.
-* `prompts/prompts-utilizados.md` — prompts utilizados durante a experimentação.
+| Conceito                  | Definição simples                                                                                          |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Educação financeira**   | Desenvolvimento de conhecimentos, atitudes e comportamentos para administrar recursos de forma consciente. |
+| **Receita**               | Dinheiro que entra no orçamento.                                                                           |
+| **Despesa**               | Dinheiro utilizado para pagar bens, serviços ou obrigações.                                                |
+| **Orçamento**             | Planejamento e acompanhamento das receitas e despesas.                                                     |
+| **Superávit**             | Quando as receitas são maiores que as despesas.                                                            |
+| **Déficit**               | Quando as despesas são maiores que as receitas.                                                            |
+| **Poupança**              | Separação de recursos que não serão consumidos.                                                            |
+| **Investimento**          | Aplicação de recursos buscando obter retorno.                                                              |
+| **Reserva de emergência** | Recursos destinados a imprevistos e períodos de dificuldade financeira.                                    |
+| **Liquidez**              | Facilidade de transformar um ativo em dinheiro disponível.                                                 |
+| **CET**                   | Custo Efetivo Total de uma operação de crédito.                                                            |
+| **Endividamento**         | Existência de compromissos financeiros.                                                                    |
+| **Inadimplência**         | Falta de pagamento de uma obrigação no prazo.                                                              |
+| **Rentabilidade**         | Retorno obtido sobre um investimento.                                                                      |
+| **Risco**                 | Possibilidade de resultados diferentes dos esperados, inclusive perdas.                                    |
+| **Inflação**              | Aumento generalizado de preços que reduz o poder de compra.                                                |
 
 ---
 
-# 🔗 Fontes
+# 🎯 Checklist para quem está começando
 
-* Banco Central do Brasil — Caderno de Educação Financeira
-* Comissão de Valores Mobiliários — Guia de Planejamento Financeiro
-* CVM / Planejar — Livro TOP: Planejamento Financeiro Pessoal
-* SUSEP — Orçamento
+Antes de aprofundar investimentos, procure conseguir responder:
+
+* [ ] Sei quanto dinheiro entra por mês?
+* [ ] Sei quanto gasto?
+* [ ] Consigo diferenciar necessidades de desejos?
+* [ ] Tenho um orçamento?
+* [ ] Sei se meu orçamento está em superávit ou déficit?
+* [ ] Consigo poupar uma parte da minha renda?
+* [ ] Entendo para que serve uma reserva de emergência?
+* [ ] Sei por que liquidez é importante para uma reserva?
+* [ ] Sei diferenciar poupar de investir?
+* [ ] Entendo a diferença entre endividamento e inadimplência?
+* [ ] Sei o que é CET?
+* [ ] Entendo que risco, liquidez e rentabilidade são conceitos diferentes?
 
 ---
 
-## Conclusão
+## 🧠 Principal aprendizado
 
-O projeto demonstrou uma utilização prática do NotebookLM como ferramenta de aprendizagem ativa.
+Educação financeira não significa simplesmente gastar menos.
 
-Mais do que obter respostas, o processo envolveu **curadoria de fontes, elaboração de prompts, análise crítica, experimentação, teste de conhecimento e consolidação do aprendizado**.
+Significa **entender a própria situação financeira, planejar, tomar decisões conscientes e utilizar o dinheiro de forma alinhada aos seus objetivos**.
 
-O resultado final foi um mini guia desenvolvido a partir desse processo.
+> **O objetivo não é controlar cada centavo para deixar de viver. É organizar o dinheiro para ter mais clareza sobre as escolhas.**
